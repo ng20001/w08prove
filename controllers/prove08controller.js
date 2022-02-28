@@ -1,7 +1,7 @@
 exports.getPosts = (req, res, next) => {
     res.status(200).json({
         professionalName: 'Nagato Yuki',
-        base64Image: 'https://www.quickhash-gui.org/wp-content/uploads/2017/07/base64.png',
+        base64Image: 'www.anImageUrlHere.com',
         nameLink: {
             firstName: 'Nagato',
             url: 'www.aURLHereTest.com'
