@@ -1,0 +1,15 @@
+GET http://localhost:8080/feed/posts
+
+###
+
+GET http://localhost:8080/professional
+
+###
+
+POST http://localhost:8080/feed/post
+Content-Type: application/json
+
+{
+    "title": "Hi",
+    "content": "Hihi content"
+}
